@@ -15,7 +15,13 @@ A theme inspired by Apple's green default Terminal profile with contrasting colo
 - Theme made to match with `Terminate-syntax` (make sure to pair these together)
 
 ## Screenshots
-...coming soon
+#### Main view
+![main](https://cloud.githubusercontent.com/assets/14797743/20470446/a186741e-af5d-11e6-9cde-94a90804f15b.png)
+#### Single example of a shadow effect
+![pallete shadow](https://cloud.githubusercontent.com/assets/14797743/20470447/a187907e-af5d-11e6-9795-2f77817189aa.png)
+#### Status bar
+![status bar](https://cloud.githubusercontent.com/assets/14797743/20470445/a18578d4-af5d-11e6-846b-832d201b870e.png)
+
 
 ## Installation
 `> apm install terminate-ui` or search and install theme in `Preferences` -> `Install` -> `Install Packages` -> `terminate-ui`
