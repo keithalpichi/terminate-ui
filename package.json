@@ -1,13 +1,16 @@
 {
-  "name": "ui-theme-template",
+  "name": "terminate-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "A theme inspired by Apple's green default Terminal profile with contrasting colors to highlight important components of the UI",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "mac",
+    "terminal",
+    "vim"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/keithalpichi/terminate-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

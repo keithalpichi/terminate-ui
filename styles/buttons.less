@@ -6,11 +6,11 @@
 
 
 .btn {
-  color: lighten(@text-color, 6%);
+  color: @button-text-color-secondary;//lighten(@text-color, 6%);
   background-color: @button-background-color;
   &:hover,
   &:focus {
-    color: @text-color-highlight;
+    color: @button-text-color-selected;
     background-color: @button-background-color-hover;
   }
   &:active {
@@ -18,7 +18,7 @@
     background-color: darken(@button-background-color, 2%);
   }
   &.selected {
-    color: @text-color-selected;
+    color: @button-text-color-selected;
     background-color: @button-background-color-selected;
   }
   &:focus,
@@ -37,7 +37,7 @@
 .btn.btn-error   { .btn-color(@background-color-error); }
 
 .btn-color(@bg) {
-  color: @text-color-selected;
+  color: @button-text-color;//@text-color-selected;
   background-color: @bg;
   &:hover,
   &:focus {

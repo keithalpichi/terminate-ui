@@ -11,14 +11,17 @@
 
   .tab {
     color: @text-color;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     height: @tab-height;
     line-height: @tab-height;
     font-size: @font-size;
     border-right: 1px solid @tab-border-color;
+    box-shadow: 2px -1px 10px 0.25px @neon-lime;
     background-color: @tab-background-color;
     &.active {
-      color: @text-color-selected;
-      background-color: @tab-background-color-active;
+      color: @tab-text-color;//@text-color-selected;
+      background-color: lighten(@tab-background-color, 2%);
     }
 
 
@@ -27,7 +30,7 @@
       top: 50%;
       right: @component-padding + 4px; // 4px -> half of icon size
       margin-top: -3px;
-      border-color: @text-color-info;
+      border-color: @red;//@text-color-info;
     }
     &.modified:hover .close-icon {
       color: currentColor;
@@ -46,8 +49,9 @@
     // Dragging -------------------
     // Styles get applied while dragging a tab
     &.is-dragging {
-      background: darken(@tab-background-color, 10%);
+      background: @tab-background-color;
       border-color: transparent;
+      box-shadow: 0 0 50px 6px @neon-lime;
       opacity: .5;
       & .close-icon {
         visibility: hidden;
